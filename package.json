@@ -1,0 +1,53 @@
+{
+  "homepage":"https://mentorna.com/test123",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^10.12.8",
+    "gh-pages": "^5.0.0",
+    "moedim": "^0.5.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-animate-css": "^0.0.1",
+    "react-animated-css": "^1.2.1",
+    "react-blocks": "^1.1.4",
+    "react-calendar": "^4.2.1",
+    "react-calendly": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-js-loader": "^0.1.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-modal": "^3.16.1",
+    "react-number-format": "^5.1.4",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.10.0",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "react-transition-group": "^4.4.5",
+    "slick-carousel": "^1.8.1",
+    "tw-daterange": "^1.1.24"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.3.3"
+  }
+}

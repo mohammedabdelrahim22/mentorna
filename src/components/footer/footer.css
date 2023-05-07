@@ -1,0 +1,4 @@
+.footer_logp {
+  filter: invert(150%) hue-rotate(180deg);
+  filter: brightness(160%) saturate(0%) contrast(160%);
+}

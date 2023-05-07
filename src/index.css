@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "gotham";
+  src: url("../public/Gotham-Font/GothamBoldItalic.ttf");
+}
+@font-face {
+  font-family: "gothammedum";
+  src: url("../public/Gotham-Font/GothamBook.ttf");
+}
+@font-face {
+  font-family: "recoltamain";
+  src: url("../public/recoleta-regulardemo.otf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.main_color {
+  color: #f5a34c;
+}
+.main_background {
+  background: #f5a34c;
+}
+.container_div {
+  width: 90%;
+  margin: auto;
+}
+.sub_font {
+  font-family: "gothammedum", sans-serif;
+  font-weight: 800 !important;
+}
+.time_active {
+  background: #f5a34c;
+  color: #fff;
+}
+p {
+  color: #000000;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;
+  font-family: "recoltamain", cursive;
+}
+.recolta {
+  font-family: "recoltamain", cursive;
+  font-weight: 900;
+}

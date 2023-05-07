@@ -1,0 +1,61 @@
+/* .today {
+  background-color: #e5e7eb;
+  color: #000;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.calendar-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-body > * {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar-body > *:first-child {
+  margin-bottom: 10px;
+}
+.calendar-body > *:last-child {
+  flex-wrap: wrap;
+}
+.react-calendar {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+}
+.react-calendar__month-view__days__day {
+  border-radius: 50%;
+  width: 22px;
+  height: 47px;
+  padding: 4px;
+}
+.react-calendar__tile:hover {
+  background-color: #f5a34c !important;
+  color: #fff;
+}
+.react-calendar__tile--active {
+  background-color: #f5a34c !important;
+}
+
+.react-calendar {
+  border: none !important;
+  box-shadow: 6px 3px 20px 3px #e1d6d6;
+  min-height: 330px;
+  border-radius: 20px;
+}
+.react-calendar__tile--now {
+  background-color: #f3843c !important;
+  color: #fff !important;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: black !important;
+} */
+.calendly-inline-widget {
+  height: 400px !important;
+}

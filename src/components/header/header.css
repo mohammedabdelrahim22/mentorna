@@ -1,0 +1,125 @@
+.play-button {
+  background-color: #fff;
+}
+/* .vedio_show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vedio {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .header {
+  background-color: gray;
+} */
+.header {
+  background-image: url("../../assets/header/Image 12.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  box-shadow: 3px 9px 10px #d9cdcd;
+}
+.img_show {
+  min-height: 39vh;
+}
+
+.header_text .after:after {
+  background: url(/src/assets/header/Path.png) no-repeat;
+  bottom: -57px;
+  content: "";
+  height: 69.77px;
+  left: -3px;
+  position: absolute;
+  width: 339px;
+  overflow: hidden;
+}
+.gray_div {
+  background-color: #222222;
+}
+.back_black {
+  background-color: #000000;
+  min-height: 191px;
+}
+.card:before {
+  content: "|";
+  width: 2px;
+  height: 93px;
+  background-color: gray;
+  position: absolute;
+  left: -2px;
+}
+@media only screen and (max-width: 400px) {
+  .back_black {
+    position: unset;
+  }
+  .card:before {
+    position: unset;
+    content: "";
+  }
+  .gray_div {
+    background: unset;
+  }
+  .card_small:after {
+    content: "|";
+    width: 2px;
+    height: 93px;
+    background-color: gray;
+    position: absolute;
+    left: 207px;
+    overflow: hidden;
+    top: 14px;
+    z-index: 7867678;
+  }
+  .card:before {
+    position: unset !important;
+    content: "" !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card_small:after {
+    content: "|";
+    width: 2px;
+    height: 93px;
+    background-color: gray;
+    position: absolute;
+    left: 94%;
+    overflow: hidden;
+    top: 14px;
+    z-index: 99999;
+  }
+  .card:before {
+    content: "" !important;
+    position: unset !important;
+    width: 0px !important;
+  }
+  .br_head {
+    display: none !important;
+  }
+  .header_text .after:after {
+    content: "" !important;
+    background: none !important;
+  }
+  .gray_div {
+    min-height: 27vh;
+  }
+  .img_show {
+    min-height: 2vh;
+  }
+  .header .header_text {
+    height: 380px;
+  }
+}
+.card_content {
+  width: max-content;
+}

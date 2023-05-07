@@ -1,0 +1,20 @@
+/* input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background: #f5a34c;
+  margin-top: -8px;
+} */
+/* @media only screen and (max-width: 600px) {
+  .position_class {
+    left: 36px;
+  }
+} */
+
+/* @media only screen and (min-width: 600px) {
+  .position_class {
+    left: 36px;
+  }
+} */
