@@ -132,13 +132,11 @@ const MultiStepForm = () => {
                                             </div>
                                         </div>
                                         <div className="flex flex-wrap -mx-3 mb-6">
-                                            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                            <div className="w-full md:w-full px-3 mb-6 md:mb-0">
                                                 <input className="appearance-none block w-full  text-gray-700 rounded  mb-3 bord" name='email' id="email" type="Email" placeholder="Email" value={formData.email}
                                                     onChange={handleChange} />
                                             </div>
-                                            <div className="w-full md:w-1/2 px-3">
-                                                <input className="appearance-none block w-full  rounded bord" id="password" type="password" placeholder="*********" required />
-                                            </div>
+
                                         </div>
                                     </div>
                                 )}
