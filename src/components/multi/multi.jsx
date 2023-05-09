@@ -99,7 +99,7 @@ const MultiStepForm = () => {
         if (currentStep === 4) {
             const timeout = setTimeout(() => {
                 setLoadingStep4(false);
-            }, 2000); // تعيين المؤقت ل 5 ثواني
+            }, 2800);
             return () => clearTimeout(timeout);
         }
     }, [currentStep]);
@@ -295,8 +295,8 @@ const MultiStepForm = () => {
                                                             onChange={handleChange}
                                                         />
                                                         <span className="max_numper text-[16px]  text-[#000000] opacity-75 p-2">12Month</span>
-                                                        <h4 className="main_color text-[20px] sub_font pt-5">
-                                                            {formData.recurring_revenue_month}month
+                                                        <h4 className="main_color text-[20px] sub_font pt-5 ml-4">
+                                                            {formData.recurring_revenue_month} month
                                                         </h4>
 
                                                     </div>
@@ -320,7 +320,7 @@ const MultiStepForm = () => {
                                                 ariaLabel="blocks-loading"
                                                 wrapperStyle={{}}
                                                 wrapperClass="blocks-wrapper"
-                                                colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+                                                colors={['#f8b26a', '#f8b26a', '#f8b26a', '#f8b26a', '#f8b26a']}
                                             />
                                         )}
 

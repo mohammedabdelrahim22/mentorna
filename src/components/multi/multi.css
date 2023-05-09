@@ -124,3 +124,8 @@ input[type="checkbox"]:checked {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.blocks-wrapper {
+  position: absolute !important;
+  top: 50% !important;
+  left: 38% !important;
+}
