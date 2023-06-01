@@ -1,0 +1,22 @@
+.section_on_hover {
+  direction: ltr !important;
+}
+.details {
+  direction: ltr;
+  justify-content: start;
+}
+aside {
+  direction: ltr;
+}
+.section_details {
+  direction: ltr;
+}
+.list {
+  margin-left: 30px;
+}
+.rotate {
+  transform: rotate(360deg);
+}
+.list_lincs {
+  margin-left: 30px !important;
+}

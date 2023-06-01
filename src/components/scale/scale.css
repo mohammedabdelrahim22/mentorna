@@ -1,0 +1,13 @@
+.scale .after_style:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  border: 2px solid #f5a34c;
+  left: 10px;
+  z-index: 1;
+  overflow: hidden;
+  top: 20px;
+  border-radius: 20px;
+}

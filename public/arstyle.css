@@ -1,0 +1,53 @@
+/* body {
+  direction: rtl;
+} */
+/* h5 {
+  color: red !important;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;800;900;1000&display=swap");
+.section_on_hover {
+  direction: rtl !important;
+}
+body {
+  font-family: "Cairo", sans-serif !important;
+}
+.section_on_hover p {
+  padding-right: 20px;
+  font-family: "Cairo", sans-serif;
+}
+.section_on_hover h5 {
+  padding-right: 20px;
+  font-family: "Cairo", sans-serif;
+}
+.section_on_hover .arrow_button {
+  /* direction: rtl; */
+  align-items: initial;
+}
+.rotate {
+  transform: rotate(180deg);
+  margin-top: 3px;
+  margin-right: 13px;
+}
+.section_on_hover .button_section {
+  padding-right: 20px;
+}
+.details {
+  direction: ltr;
+  justify-content: end;
+  margin-right: 20px;
+}
+aside {
+  direction: rtl;
+}
+.padd_div {
+  padding-right: 20px;
+}
+.section_details {
+  direction: rtl;
+}
+.list {
+  margin-right: 35px;
+}
+.list_lincs {
+  margin-right: 30px !important;
+}

@@ -1,0 +1,35 @@
+.after_card:after {
+  content: "|";
+  height: 100px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  right: -125px;
+  top: 1px;
+  overflow: hidden;
+}
+.d-inline {
+  display: inline;
+}
+@media only screen and (max-width: 800px) {
+  .after_card:after {
+    content: "";
+    display: none;
+  }
+  /* .brand_padding {
+    padding-top: 30px;
+  } */
+  .grid_width {
+    width: 100%;
+    margin: auto;
+  }
+}
+/* .image_1 {
+  width: max-content;
+} */
+@media only screen and (max-width: 1070px) {
+  .after_card:after {
+    content: "" !important;
+    display: none;
+  }
+}

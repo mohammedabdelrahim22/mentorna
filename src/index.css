@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;800;900;1000&display=swap");
+@font-face {
+  font-family: "gotham";
+  src: url("./fonts/Gotham-Font/GothamBoldItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "gothammedum";
+  src: url("./fonts/Gotham-Font/GothamBook.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "gothammbold";
+  src: url("./fonts/Gotham-Font/GothamBold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "recoltamain";
+  src: url("./fonts/recoleta-regulardemo.otf");
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.main_color {
+  color: #f5a34c;
+}
+.main_background {
+  background: #f5a34c;
+}
+.container_div {
+  width: 90%;
+  margin: auto;
+}
+.sub_font {
+  font-family: "gothammbold", sans-serif;
+  font-weight: 900 !important;
+}
+.blogs_font {
+  font-family: "gothammbold", sans-serif;
+  font-weight: 600 !important;
+}
+.time_active {
+  background: #f5a34c;
+  color: #fff;
+}
+p {
+  color: #000000;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.recolta {
+  font-family: "recoltamain", cursive;
+  font-weight: 900;
+}
+.disabled_button {
+  color: black;
+}
+.disabled_button:disabled {
+  color: #c9c5c5ee;
+}
