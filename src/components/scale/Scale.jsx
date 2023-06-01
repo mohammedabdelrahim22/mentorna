@@ -1,5 +1,5 @@
 import './scale.css'
-// import logo from '../../assets/logo/logo.png'
+// import logo from '../../assets/logo/logo.png'شعى
 import { scale_div, scale_div_two } from '../../constans/constans'
 import card from '../../assets/scale/card.png'
 import card2 from '../../assets/scale/card2.png'
@@ -160,7 +160,7 @@ function Scale() {
                                     <div className='text_div pt-[30%]'>
                                         <h2 className='font-bold text-[30px] sub_font'>
                                             Tailor-Fit offer <br />
-                                            For Your Auinnce
+                                            For Your Audience
                                         </h2>
                                     </div>
                                     <div className='image_section'>
