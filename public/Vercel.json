@@ -1,15 +1,11 @@
 {
-  
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    },
-    {
-  "cleanUrls": true
-}
-{
-  "public": true
-}
-  ]
+		{
+			"source": "/(.*)",
+			"destination": "/index.html"
+		},
+     { "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }] }
+	]
+
+  
 }
