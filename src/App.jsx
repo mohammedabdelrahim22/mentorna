@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className='app overflow-hidden'>
         <Routes>
-          <Route exact path="/" element={<Index />} />
+          <Route path="/" element={<Index />} />
           <Route path="/MultiStepForm" element={<MultiStepForm />} />
           <Route path="/Blogs" element={<Blogs />} />
           <Route path="/Blogs/BlogDetails" element={<BlogDetails />} />
