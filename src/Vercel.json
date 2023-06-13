@@ -1,15 +1,8 @@
 {
-  
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
-    },
-    {
-  "cleanUrls": true
-}
-{
-  "public": true
-}
+      "destination": "/index.html"
+    }
   ]
 }
