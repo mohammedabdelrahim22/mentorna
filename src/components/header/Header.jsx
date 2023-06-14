@@ -34,6 +34,11 @@ function Header() {
                                             Articles
                                         </button>
                                     </Link>
+                                    <Link to="/MainCeo">
+                                        <button className='arrow_button_nav h-[50px]  text-[18px] rounded-[10px] flex p-[10px] justify-center items-center'>
+                                            Articles
+                                        </button>
+                                    </Link>
                                 </div>
                                 {/* <div className='flex w-[100px] justify-evenly mt-2 flex-wrap'>
                                     <span className='svg_icon'>
