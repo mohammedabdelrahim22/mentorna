@@ -89,6 +89,9 @@
 .features {
   margin-bottom: 30px;
 }
+h1 {
+  font-weight: bold !important;
+}
 .card_div {
   width: 100%;
   min-height: 100%;
@@ -165,33 +168,33 @@
   border-top: 1px solid #eee;
 }
 .button_adve {
-  padding: 8px 10px 8px 27px;
-  color: #3a395e;
-  background-color: #f7f7fa;
-  border: 2px solid #f7f7fa;
-  border-radius: 14px;
-  margin-bottom: 0;
-  font-size: 18px;
-  width: 400px;
-  transition: background-color 0.35s, border-color 0.35s;
+  padding: 8px 10px 8px 27px !important;
+  color: #3a395e !important;
+  background-color: #f7f7fa !important;
+  border: 2px solid #f7f7fa !important;
+  border-radius: 14px !important;
+  margin-bottom: 0 !important;
+  font-size: 18px !important;
+  width: 400px !important;
+  transition: background-color 0.35s, border-color 0.35s !important;
 }
 
 .submit_type {
-  width: 64px;
-  height: 64px;
-  color: #4770ff;
-  background-color: #4770ff;
-  background-image: url(/src/assets/arrow_icon.svg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: auto;
-  border-radius: 17px;
-  transition: transform 0.35s;
-  position: absolute;
-  right: 20px;
-  box-shadow: 0 3px 17px rgba(46, 42, 212, 0.13);
-  cursor: pointer;
-  text-decoration: none;
+  width: 64px !important;
+  height: 64px !important;
+  color: #4770ff !important;
+  background-color: #4770ff !important;
+  background-image: url(/src/assets/arrow_icon.svg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: auto !important;
+  border-radius: 17px !important;
+  transition: transform 0.35s !important;
+  position: absolute !important;
+  right: 20px !important;
+  box-shadow: 0 3px 17px rgba(46, 42, 212, 0.13) !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
 .submit_type:hover {
   transform: scale(1.1);
