@@ -72,9 +72,9 @@
   font-weight: 700;
 }
 .sm\:before\:w-0\.5::before {
-  width: 6px;
-  background-color: rgb(71 112 255);
-  height: 591px;
+  width: 6px !important;
+  background-color: rgb(71 112 255) !important;
+  height: 591px !important;
 }
 .sm\:before\:rounded-full::before {
   width: 39px;
