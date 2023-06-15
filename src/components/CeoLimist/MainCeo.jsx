@@ -5,6 +5,8 @@ import HeroSwction from './HeroSwction'
 import Reminning from './Reminning'
 import Features from './Features'
 import Articles from './Articles'
+import Jurnye from './Jurnye'
+import Footer from './Footer'
 function MainCeo() {
     return (
         <div>
@@ -14,6 +16,8 @@ function MainCeo() {
             <Timeline />
             <Features />
             <Articles />
+            <Jurnye />
+            <Footer />
         </div>
     )
 }

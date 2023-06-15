@@ -2,10 +2,10 @@ import Line from '../../assets/line.svg'
 function CeoNav() {
     return (
         <div className='other_header'>
-            <div className="ce_Nav top w-100 h-[8vh] bg-[#ececfe]">
+            <div className="ce_Nav top w-100 min-h-[8vh] pt-[20px]  pb-[20px] p-[10px] bg-[#ececfe]">
                 <div className="container_div flex items-center h-[100%]">
-                    <div className="flex items-center justify-between w-[100%]">
-                        <div className="first_div">
+                    <div className="sm:flex  items-center justify-center w-[100%] flex-wrap text-center">
+                        <div className="first_div text-center">
                             <span className="w-[30px] h-[20px] bg-[#43bb88] text-white p-[5px] rounded-[3px]">
                                 Free
                             </span>
@@ -16,7 +16,7 @@ function CeoNav() {
                             </h1>
                         </div>
                         <div className="third_div flex items-center justify-center">
-                            <div className="image_section">
+                            <div className="image_section ml-4">
                                 <a href="#" className="text-[20px] text-bold ">ACCESS NOW</a>
                                 <img src={Line} className='text-center d-inline-block w-[100%] text-[#3737ac]' />
                             </div>
@@ -24,7 +24,7 @@ function CeoNav() {
                     </div>
                 </div>
             </div>
-            <div className='other_nav  flex p-[20px] justify-between items-center'>
+            <div className='other_nav flex  p-[20px] justify-between items-center pt-[90px]'>
                 <div className='logo_section'>
                     <h1 className='text-[70px] text-bold text-black'>G.</h1>
                 </div>

@@ -30,9 +30,6 @@ function Features() {
                             <div className='text_center_div text-center mt-[20px]'>
                                 <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
                                 <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
-
-
-
                             </div>
                             <div className='link mt-[30px]'>
                                 <a href="#" className='link_color text-[#4770ff] text-bold mt-[30px]'>
@@ -46,12 +43,12 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    podcast
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
+                                <h2 className='text-[20px] text-[#3a395e] '>The SaaS Podcast</h2>
+                                <p className='text-[#3a395e] mt-[20px]'>How A Bootstrapped Saas Hit $250k Arr In Its First Year?</p>
 
 
 
@@ -68,12 +65,12 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    interview
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
+                                <h2 className='text-[20px] text-[#3a395e] '>interview</h2>
+                                <p className='text-[#3a395e] mt-[20px]'>Learn How To Write Outbound Sequences That Convert</p>
 
 
 
@@ -90,14 +87,12 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    video
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
-
-
+                                <h2 className='text-[20px] text-[#3a395e] '>We were offered $20 million</h2>
+                                <p className='text-[#3a395e] mt-[20px]'>We Got Offered $20m At A $100m Valuation</p>
 
                             </div>
                             <div className='link mt-[30px]'>
@@ -114,14 +109,13 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    video
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
-
-
+                                <h2 className='text-[20px] text-[#3a395e] '>video</h2>
+                                <p className='text-[#3a395e] mt-[20px]'>First Pitch In Front Of A Vc To Try To Raise $20,000,000 For Lemlist In 2 Weeks
+                                </p>
 
                             </div>
                             <div className='link mt-[30px]'>
@@ -136,12 +130,15 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    interview
+
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
+                                <h2 className='text-[20px] text-[#3a395e] '>interview
+                                    BFM Good Morning
+                                </h2>
+                                <p className='text-[#3a395e] mt-[20px]'>There Are Other Criteria For Success Than Fundraising</p>
 
 
 
@@ -158,12 +155,12 @@ function Features() {
                             </div>
                             <div className='w-100 flex mt-[20px] justify-center items-center' >
                                 <span className=' bg-[#eff4ff] d-block rounded-[15px] text-[#4770ff] p-[15px] text-bold'>
-                                    conference
+                                    video
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
+                                <h2 className='text-[20px] text-[#3a395e] '>NO to $30 million</h2>
+                                <p className='text-[#3a395e] mt-[20px]'>I Said NO To A $30 Million Offer From An Investor</p>
 
 
 
@@ -184,8 +181,10 @@ function Features() {
                                 </span>
                             </div>
                             <div className='text_center_div text-center mt-[20px]'>
-                                <h2 className='text-[20px] text-[#3a395e] '>SaaStock Local (Belgium)</h2>
-                                <p className='text-[#3a395e] mt-[20px]'>First SaaStock Local Conference (Belgium)</p>
+                                <h2 className='text-[20px] text-[#3a395e] '>Touch Digital Summit
+                                </h2>
+                                <p className='text-[#3a395e] mt-[20px]'>Touch Digital Summit
+                                </p>
 
 
 

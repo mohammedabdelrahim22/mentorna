@@ -4,8 +4,8 @@ function HeroSwction() {
         <div className='hero_section'>
             <div className='pl-[22px] pr-[22px]'>
                 <hr className='w-[120px] h-[6px] bg-[#4770ff]' />
-                <div className="flex items-center">
-                    <div className="text_left">
+                <div className="sm:flex items-center">
+                    <div className="text_left sm:w-[50%]">
                         <h1 className="text-bold text-[66px] text-black mt-[10px]">
                             Guillaume<br />
                             Moubeche,<br />
