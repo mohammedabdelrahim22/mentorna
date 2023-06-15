@@ -77,14 +77,14 @@
   height: 591px !important;
 }
 .sm\:before\:rounded-full::before {
-  width: 39px;
-  height: 39px;
-  min-height: 39px;
-  color: #4770ff;
-  background-color: #4770ff;
-  border: 3px solid #fff;
-  border-radius: 1000px;
-  box-shadow: 0 2px 9px rgba(112, 81, 239, 0.35);
+  width: 39px !important;
+  height: 39px !important;
+  min-height: 39px !important;
+  color: #4770ff !important;
+  background-color: #4770ff !important;
+  border: 3px solid #fff !important;
+  border-radius: 1000px !important;
+  box-shadow: 0 2px 9px rgba(112, 81, 239, 0.35) !important;
 }
 .features {
   margin-bottom: 30px;
