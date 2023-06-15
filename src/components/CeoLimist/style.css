@@ -224,7 +224,11 @@
 }
 .sm\:before\:mx-0::before {
   height: 5px !important;
-  background-color: rgb(71 112 255);
+
+  background-color: rgb(71 112 255) !important;
+}
+.sm\:before\:mx-0::before {
+  background-color: rgb(71 112 255) !important;
 }
 .Reminning_section {
   padding-bottom: 50px;
