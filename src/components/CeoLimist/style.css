@@ -14,18 +14,21 @@
 .ce_Nav:hover {
   background-color: #c7c7ff;
 }
-.Links_section,
-.button-Section button {
+.Links_section {
+  background-color: unset !important;
+}
+.button_class {
   font-weight: 700;
   transition: box-shadow 0.35s, transform 0.35s;
   box-shadow: 0 3px 17px rgba(112, 81, 239, 0.27);
+  transition: all 0.5s ease-in-out !important;
   cursor: pointer;
 }
 
-.Links_section,
-.button-Section button:hover {
+.button_class:hover {
   color: #fff;
   transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
   box-shadow: 0 7px 25px rgba(112, 81, 239, 0.27);
 }
 .text_left h1 {
@@ -50,9 +53,8 @@
   transform-style: preserve-3d;
   opacity: 1;
   order: 0;
-  margin-top: -172px;
   margin-right: 0;
-  padding-top: 177px;
+  /* padding-top: 177px; */
   padding-left: 0;
   padding-right: 0;
   position: relative;
@@ -74,7 +76,7 @@
 .sm\:before\:w-0\.5::before {
   width: 6px !important;
   background-color: rgb(71 112 255) !important;
-  height: 591px !important;
+  height: 649px !important;
 }
 .sm\:before\:rounded-full::before {
   width: 39px !important;
@@ -252,4 +254,10 @@ h1 {
   .ce_Nav {
     position: unset;
   }
+}
+/* CSS code */
+.scroll-color {
+  /* Add the styles you want to apply when scrolling */
+  /* For example, change the background color to red */
+  background-color: red;
 }

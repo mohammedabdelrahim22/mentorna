@@ -141,7 +141,7 @@
       "image": "./blog4.jpg",
       "user": "Ramzy Abdelaziz",
       "date": "May 17, 2023",
-      "mainIamage": "./blog2.jpg"
+      "mainIamage": "./blog2.png"
     },
     {
       "id": 3,
@@ -152,7 +152,7 @@
       "image": "./blog4.jpg",
       "user": "Ramzy Abdelaziz",
       "date": "May 24, 2023",
-      "mainIamage": "./blog3.jpg"
+      "mainIamage": "./blog3.png"
     }
   ]
 }

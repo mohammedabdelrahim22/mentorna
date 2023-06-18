@@ -1,5 +1,5 @@
 import blog4 from '../../assets/blogs/blog4.jpg'
-
+import blog3 from '../../assets/blogs/blog3.png'
 import blog5 from '../../assets/blogs/blog5.jpg'
 // import blog3 from '../../assets/blogs/blog3.jpg'
 import { useTranslation } from 'react-i18next';
@@ -28,7 +28,7 @@ const SingleBlog3 = () => {
                         </div>
                     </div>
                     <div className='thumpnal mt-[50px] mb-[50px]'>
-                        <img src={blog5} className='object-cover w-[100%] rounded-[20px]' />
+                        <img src={blog3} className='object-cover w-[100%] rounded-[20px]' />
                     </div>
                     <p className='text-[#808080] cario mt-[20px]'>
                         {singleBlog[0].desc}

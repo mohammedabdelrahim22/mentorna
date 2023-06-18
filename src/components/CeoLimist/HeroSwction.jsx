@@ -1,38 +1,42 @@
-import Avatar from '../../assets/avatar.png'
+// import Avatar from '../../assets/avatar.png'
+import Ahmed from '../../assets/ahmed.png'
+import { Link } from 'react-router-dom'
 function HeroSwction() {
     return (
-        <div className='hero_section'>
+        <div className='hero_section' id="herro">
             <div className='pl-[22px] pr-[22px]'>
                 <hr className='w-[120px] h-[6px] bg-[#4770ff]' />
                 <div className="sm:flex items-center">
-                    <div className="text_left sm:w-[50%]">
+                    <div className="text_left sm:w-[50%]" data-aos="fade-right" data-aos-delay="600">
                         <h1 className="text-bold text-[66px] text-black mt-[10px]">
-                            Guillaume<br />
-                            Moubeche,<br />
+                            Ahmed Ezzat,<br />
                             <span className="text-[#4770ff]">
-                                CEO of lemlist
+                                Founder of Mentorna
                             </span>
                         </h1>
                         <p className="pragraph mt-4">
-                            Co-Founder and CEO of lemlist.
+                            Founder of Mentorna
                             <br />
                             <br />
-                            On a mission to help<span className="text-black"> 1,000,000 entrepreneurs to build profitable businesses by 2025.</span>
+                            On a mission to help<span className="text-black">100 founders generate traction and growth to their startups/business by 2024
+                            </span>
                             <br />
                             <br />
-                            In 3.5 years, we went<span className="text-black"> from $0 to $10 million in ARR </span>
-                            from $0 to $10 million in ARR
-                            <br />
-                            <br />
-                            I love SaaS businesses, B2B growth strategies and cool people
+                            In 1.5 years, we helped founders generating over <span className="text-black">  $5 million in ARR</span>
+
                         </p>
+
+
                         <div className='button-Section'>
-                            <button className="p-[10px] bg-[#4770ff] text-[20px] w-[170px] h-[60px] rounded-[17px] text-white text-bold flex justify-center items-center">Contact Me</button>
+                            <Link to="/MultiStepForm" className="button_class p-[10px] bg-[#4770ff] text-[20px] w-[170px] h-[60px] rounded-[17px] text-white text-bold flex justify-center items-center">Contact Me</Link>
                         </div>
                     </div>
-                    <div className="image_right">
-                        <img src={Avatar} />
+
+
+                    <div className="image_right" data-aos="fade-left" data-aos-delay="600" >
+                        <img src={Ahmed} />
                     </div>
+
                 </div>
             </div>
         </div>

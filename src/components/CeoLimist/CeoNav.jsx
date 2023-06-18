@@ -1,4 +1,5 @@
 import Line from '../../assets/line.svg'
+import { Link } from 'react-router-dom'
 function CeoNav() {
     return (
         <div className='other_header'>
@@ -29,7 +30,7 @@ function CeoNav() {
                     <h1 className='text-[70px] text-bold text-black'>G.</h1>
                 </div>
                 <div className='Links_section'>
-                    <button className="p-[10px] bg-[#4770ff] text-[20px] w-[130px] h-[60px] rounded-[17px] text-white text-bold flex justify-center items-center">Contact</button>
+                    <Link to='/MultiStepForm' className="button_class p-[10px] bg-[#4770ff] text-[20px] w-[130px] h-[60px] rounded-[17px] text-white text-bold flex justify-center items-center">Contact</Link>
                 </div>
             </div>
         </div>

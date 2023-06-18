@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom'
-import blog7 from '../../assets/blogs/Blog7.png'
-import blog2 from '../../assets/blogs/blog2.jpg'
-import blog3 from '../../assets/blogs/blog3.jpg'
+import blog1 from '../../assets/blogs/blog1.png'
+import blog2 from '../../assets/blogs/blog2.png'
+import blog3 from '../../assets/blogs/blog3.png'
 const Sidebar = () => {
     const [t] = useTranslation();
     const saidbar = t("saidbar", { returnObjects: true });
@@ -16,7 +16,7 @@ const Sidebar = () => {
             </div>
 
             <section className="flex mt-8">
-                <img src={blog7} alt="صورة 3" className="w-[80px] h-[80px] object-cover mr-4" />
+                <img src={blog1} alt="صورة 3" className="w-[80px] h-[80px] object-cover mr-4" />
                 <div className='padd_div'>
                     <Link to="/Blogs/BlogDetails">
                         <a href='#' className=''>

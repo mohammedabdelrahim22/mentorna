@@ -10,7 +10,7 @@ function Features() {
     return (
         <div className="features mt-[50px]">
             <div className="container_div">
-                <div className="title_section">
+                <div data-aos="fade-up" data-aos-delay="500" className="title_section">
                     <hr className="w-[100px] h-[6px] bg-[#4770ff]" />
                     <h1 className="text-[50px] text-bold text-[#3a395e] mt-4">
                         latest features
@@ -18,7 +18,7 @@ function Features() {
                 </div>
                 <div className="grid_section mt-[40px]">
                     <div className="grid sm:grid-cols-4 gap-4 grid-cols-1">
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-up" data-aos-delay="600" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage} className='w-100 h-100 object-cover' />
                             </div>
@@ -37,7 +37,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-down" data-aos-delay="600" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage2} className='w-100 h-100 object-cover' />
                             </div>
@@ -59,7 +59,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-right" data-aos-delay="700" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage3} className='w-100 h-100 object-cover' />
                             </div>
@@ -81,7 +81,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-left" data-aos-delay="650" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage4} className='w-100 h-100 object-cover' />
                             </div>
@@ -103,7 +103,7 @@ function Features() {
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-4 gap-4 grid-cols-1 sm:mt-[30px] mt-[2px]">
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-up" data-aos-delay="600" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage5} className='w-100 h-100 object-cover' />
                             </div>
@@ -124,7 +124,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-down" data-aos-delay="6500" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage6} className='w-100 h-100 object-cover' />
                             </div>
@@ -149,7 +149,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-right" data-aos-delay="700" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage7} className='w-100 h-100 object-cover' />
                             </div>
@@ -171,7 +171,7 @@ function Features() {
                                 </a>
                             </div>
                         </div>
-                        <div className="card_div p-[20px] text-center">
+                        <div data-aos="fade-left" data-aos-delay="700" className="card_div p-[20px] text-center">
                             <div className="image_section_top">
                                 <img src={CardImage8} className='w-100 h-100 object-cover' />
                             </div>

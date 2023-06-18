@@ -1,8 +1,6 @@
-// import blog from '../../assets/blogs/blog.jpg'
-// import man from '../../assets/blogs/man.svg'
-import blog7 from '../../assets/blogs/Blog7.png'
+
+import blog1 from '../../assets/blogs/blog1.png'
 import blog4 from '../../assets/blogs/blog4.jpg'
-// import blog3 from '../../assets/blogs/blog3.jpg'
 import { useTranslation } from 'react-i18next';
 const SingleBlog = () => {
     const [t] = useTranslation();
@@ -29,7 +27,7 @@ const SingleBlog = () => {
                         </div>
                     </div>
                     <div className='thumpnal mt-[50px] mb-[50px]'>
-                        <img src={blog7} className='object-cover w-[100%] rounded-[20px]' />
+                        <img src={blog1} className='object-cover w-[100%] rounded-[20px]' />
                     </div>
                     <p className='text-[#808080] cario'>
                         {singleBlog[0].detailsblogdesc1}

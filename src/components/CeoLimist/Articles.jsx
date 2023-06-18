@@ -9,7 +9,7 @@ function Articles() {
     return (
         <div className="articles mt-[70px]">
             <div className="container_div">
-                <div className="title_section">
+                <div className="title_section " data-aos="fade-up" data-aos-delay="500">
                     <hr className="w-[100px] h-[6px] bg-[#4770ff]" />
                     <h1 className="text-[50px] text-bold text-[#3a395e] mt-4">
                         latest articles
@@ -17,7 +17,7 @@ function Articles() {
                 </div>
                 <div className="grid_section mt-[40px]">
                     <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 text-center">
-                        <div className="card_Arecle">
+                        <div data-aos="fade-up" data-aos-delay="500" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle1}
@@ -31,7 +31,7 @@ function Articles() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="card_Arecle">
+                        <div data-aos="fade-down" data-aos-delay="600" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle2}
@@ -45,7 +45,7 @@ function Articles() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="card_Arecle">
+                        <div data-aos="fade-right" data-aos-delay="660" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle3}
@@ -61,7 +61,7 @@ function Articles() {
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 text-center mt-10">
-                        <div className="card_Arecle">
+                        <div data-aos="fade-left" data-aos-delay="500" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle4}
@@ -75,7 +75,7 @@ function Articles() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="card_Arecle">
+                        <div data-aos="fade-up-right" data-aos-delay="600" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle5}
@@ -89,7 +89,7 @@ function Articles() {
                                 </h1>
                             </div>
                         </div>
-                        <div className="card_Arecle">
+                        <div data-aos="fade-up-left" data-aos-delay="700" className="card_Arecle">
                             <div className="image_section w-full h-[262px]">
                                 <img
                                     src={Arecle6}

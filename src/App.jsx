@@ -6,7 +6,7 @@ import BlogDetails2 from './components/blogs/blogDetails2';
 import BlogDetails3 from './components/blogs/blogDetails3';
 import MainCeo from './components/CeoLimist/MainCeo'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-
+import 'animate.css/animate.min.css';
 function App() {
   return (
     <Router>
