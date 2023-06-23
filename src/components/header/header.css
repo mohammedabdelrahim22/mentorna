@@ -1,6 +1,24 @@
 .play-button {
   background-color: #fff;
 }
+.before_class {
+  display: inline-block;
+}
+.before_class:before {
+  content: "";
+  position: absolute;
+  /* top: 100%; */
+  bottom: -10%;
+  width: 100%;
+  left: 0;
+  height: 0.5em;
+  background: linear-gradient(
+    90.25deg,
+    #f5a34c 27.69%,
+    rgba(26, 39, 201, 0) 125.86%
+  );
+  z-index: -1;
+}
 /* .vedio_show {
   display: flex;
   justify-content: center;
@@ -97,6 +115,17 @@ nav {
     overflow: hidden;
     top: 30px;
     z-index: 99999;
+  }
+  .before_class:before {
+    content: "";
+    position: absolute;
+    /* top: 100%; */
+    bottom: -10%;
+    width: 100%;
+    left: 0;
+    height: 0.5em;
+    background: none;
+    z-index: -1;
   }
   .card:before {
     content: "" !important;

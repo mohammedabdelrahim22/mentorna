@@ -9,38 +9,20 @@ import cardtop from '../../assets/scale/cardtop.png'
 import cardtop1 from '../../assets/scale/cardtop1.png'
 import Modal from 'react-modal';
 import ReactPlayer from 'react-player';
-import { useState, useEffect } from 'react';
-import { Animated } from "react-animated-css";
+import { useState } from 'react';
+
 Modal.setAppElement('#root');
 function Scale() {
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const section = document.getElementById('scale');
-            if (section) {
-                const rect = section.getBoundingClientRect();
-                const isSectionVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
-                setIsVisible(isSectionVisible);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
     const [modalIsOpen, setModalIsOpen] = useState(false);
     return (
 
 
-        <div className="scale mt-[60px]" id="scale">
+        <div className="scale mt-[60px] relative" id="scale">
             <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={{ content: { top: '50%', left: '50%', right: 'auto', bottom: 'auto', marginRight: '-50%', transform: 'translate(-50%, -50%)', maxWidth: '90%', maxHeight: '90vh' } }}>
                 <ReactPlayer url="https://www.youtube.com/watch?v=UOiyJGgczkg&ab_channel=mentorna" playing={true} />
             </Modal>
             <div className='container_div'>
-                <div className="head_text">
+                <div className="head_text " data-aos="fade-up">
                     <h4 className="main_color sub_font">
                         Case Studies
                     </h4>
@@ -48,7 +30,7 @@ function Scale() {
                         How We Scale It.
                     </h2>
                 </div>
-                <Animated animationIn="bounceInLeft" isVisible={isVisible} animationInDuration={2000}>
+                <div>
                     <div className='grid grid-col-2 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 relative gap-9 mt-5'>
                         <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 after_style relative">
                             <div className="col-span-1  z-10">
@@ -213,7 +195,7 @@ function Scale() {
                         </div>
 
                     </div>
-                </Animated>
+                </div>
             </div>
         </div>
 

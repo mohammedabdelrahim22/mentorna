@@ -1,24 +1,23 @@
-import { useState } from 'react'
-import Modal from 'react-modal';
-import ReactPlayer from 'react-player';
+
 import logo from '../../assets/logo/logo.png';
-import head from '../../assets/header/head.jpg'
+// import head from '../../assets/header/head.jpg'
+import Vedio from '../../assets/header/Vedio.jpg'
 import { Link } from 'react-router-dom'
-
 import './header.css'
-
-Modal.setAppElement('#root');
+import {
+    Player,
+    ControlBar,
+    ReplayControl,
+    ForwardControl,
+    CurrentTimeDisplay,
+    TimeDivider,
+    PlaybackRateMenuButton,
+    VolumeMenuButton, BigPlayButton
+} from 'video-react';
 function Header() {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
     return (
         <div>
-            <div>
-                <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={{ content: { top: '50%', left: '50%', right: 'auto', bottom: 'auto', marginRight: '-50%', transform: 'translate(-50%, -50%)', maxWidth: '90%', maxHeight: '90vh' } }}>
-                    <ReactPlayer url="" playing={true} />
-                </Modal>
-            </div>
-
-            <div className='header min-h-[85vh] sm:min-h-[88vh] pt-5 bg-cover'>
+            <div className='header pt-5 bg-cover'>
 
                 <nav className="bg-white p-5 rounded-[20px] container_div">
                     <div className="mx-auto px-4">
@@ -62,25 +61,13 @@ function Header() {
                         </div>
                     </div>
                 </nav>
-                <div className='vedio_show flex relative w-[100%] p-6 sm:p-2  min-h-[14vh] sm:min-h-[40vh] md:min-h-[40vh] justify-center'>
-                    <div className='img_show  w-[100%]   sm:w-[55%]  mt-[50px] sm:mt-[-6%]'>
-                        <img src={head} alt="vedio" className='object-center object-cover  w-100 h-100' />
-                    </div>
-                    <div className='vedio relative'>
-                        <button className="play-button w-[60px] h-[60px] rounded-[50%] flex justify-center items-center absolute top-[15vh] right-[35vw] sm:top-[2vh] sm:right-[16vh]   md:top-[6vh] md:right-[18vw]  lg:top-[11vh] lg:right-[23vw]" onClick={() => setModalIsOpen(true)}>
-                            <svg width="36" height="36" viewBox="0 0 24 24">
-                                <path d="M8,5.14V19.14L19,12.14L8,5.14Z" fill="orange" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div className='header_text w-[100%] mt-4 h-[400px] sm:h-[400px] md:h-[300px]'>
+
+                <div className='header_text w-[100%] mt-4 pb-[102px]'>
                     <div className='text_inside text-center'>
                         <h1 className='text-[35px] sm:text-[42px] text-center text-black leading-[3.6rem] recolta'>
                             <span className='after relative mr-2'> Boost</span>
                             Your Business With Our Tailored <br className="br_head" />
-
-                            Community Growth Strategies.
+                            <span className='   relative'> Community Growth Strategies.</span>
                         </h1>
                         <div className="flex w-[100%] justify-center">
                             <Link to='/MultiStepForm'>
@@ -106,12 +93,29 @@ function Header() {
                         </div>
                     </div>
                 </div>
-
+                <div className='vedio_show flex  w-[100%] pb-[40px] justify-center'>
+                    <div className='img_show  w-[100%] sm:w-[70%]'>
+                        {/* <img src={head} alt="vedio" className='object-center object-cover  w-100 h-100' /> */}
+                        <Player poster={Vedio}>
+                            <source src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4" />
+                            <source src="http://mirrorblender.top-ix.org/movies/sintel-1024-surround.mp4" />
+                            <ControlBar>
+                                <ReplayControl seconds={10} order={1.1} />
+                                <ForwardControl seconds={30} order={1.2} />
+                                <CurrentTimeDisplay order={4.1} />
+                                <TimeDivider order={4.2} />
+                                <PlaybackRateMenuButton rates={[5, 2, 1, 0.5, 0.1]} order={7.1} position="center" />
+                                <BigPlayButton position="center" />
+                                <VolumeMenuButton />
+                            </ControlBar>
+                        </Player>
+                    </div>
+                </div>
             </div>
-            <div className='w-full p-0 sm:p-4  min-h-[26vh] sm:h-[12vh] md:h-[20vh] gray_div relative gap-2'>
+            <div className='w-full p-0 sm:p-4 gray_div mt-[70px]'>
                 <div className='black_box relative w-full'>
-                    <div className='div_cols relative flex justify-center'>
-                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2  mt-[30px] sm:mt-[1px] lg:grid-cols-3 xl:grid-cols-3 w-full sm:w-[75%] md:w-[50%] absolute top-[-12vh] back_black">
+                    <div className='div_cols  flex justify-center'>
+                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 mt-[-40px] lg:grid-cols-3 xl:grid-cols-3 w-full sm:w-[75%] md:w-[50%] top-[-2vh] back_black">
 
                             <div className="sm:p-6 p-4  card_small relative bg-[#222222] sm:bg-black text-left sm:text-center">
                                 <h2 className="text-[50px]   font-bold mb-2 sub_font">+2M</h2>

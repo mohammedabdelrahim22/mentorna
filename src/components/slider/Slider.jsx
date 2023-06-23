@@ -26,7 +26,7 @@ function Slider() {
     return (
         <div className='slider_partner mt-[60px] pt-[70px] relative  p-[20px]'>
             <div className='pt-2 p-2'>
-                <h2 className='text-[60px] text-black  sub_font'>
+                <h2 className='text-[60px] text-black  sub_font' data-aos="fade-up">
                     Our Network.
                 </h2>
             </div>

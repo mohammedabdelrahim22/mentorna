@@ -4,7 +4,28 @@
   src: url("./fonts/Gotham-Font/GothamBoldItalic.ttf");
   font-display: swap;
 }
-
+/* .modal {
+  z-index: 200000000 !important;
+} */
+.video-react-big-play-button {
+  position: absolute !important;
+  left: 50% !important;
+  top: 42% !important;
+  transform: translate(-41%, -9%);
+}
+.video-react.video-react-fluid,
+.video-react.video-react-16-9,
+.video-react.video-react-4-3 {
+  border-radius: 10px !important;
+}
+.video-react .video-react-video {
+  border-radius: 10px !important;
+}
+.video-react-poster {
+  background-size: cover !important;
+  background-position: center;
+  border-radius: 10px !important;
+}
 @font-face {
   font-family: "gothammedum";
   src: url("./fonts/Gotham-Font/GothamBook.ttf");

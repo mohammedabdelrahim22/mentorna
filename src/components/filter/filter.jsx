@@ -7,7 +7,7 @@ const Filter = () => {
         setRangeValue(event.target.value);
     }
     return (
-        <div className="filter mt-[70px]">
+        <div className="filter mt-[70px]" data-aos="fade-up">
             <div className="container_div sm:w-[85%]">
                 <div className="inside_filter bg-[#000000] min-h-[60vh] p-[30px] sm:p-[50px] rounded-[50px]">
                     <div className="text-inside">
