@@ -84,7 +84,7 @@ function Header() {
                             Generate Over <span className='text-[#f5a34c]'>$500K</span> in Sales and Captivate <span className='text-[#f5a34c]'>$Millions</span>   of Potential Customers!”
                         </p>
                         <div className='buttons_section flex w-[100%] mt-[20px]'>
-                            <Link to="/blogs">
+                            <Link to="/MultiStepForm">
                                 <button className='arrow_button_nav h-[50px]  text-[18px] rounded-[10px] flex p-[20px] justify-center items-center'>
                                     Get started - Free 30 minutes call
                                 </button>
