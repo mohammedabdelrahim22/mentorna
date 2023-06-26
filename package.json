@@ -32,7 +32,8 @@
     "react-use": "^17.4.0",
     "slick-carousel": "^1.8.1",
     "tw-daterange": "^1.1.24",
-    "video-react": "^0.16.0"
+    "video-react": "^0.16.0",
+      "swiper": "^9.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

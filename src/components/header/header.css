@@ -39,12 +39,12 @@
 /* .header {
   background-color: gray;
 } */
-.header {
-  background-image: url("../../assets/header/Image 12.png");
+/* .header {
+  background-image: url("../../assets/header/Image 12.png");s
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 nav {
   box-shadow: 3px 9px 10px #d9cdcd;
 }
@@ -151,4 +151,66 @@ nav {
 }
 .card_content {
   width: max-content;
+}
+.image_hero_dots {
+  border: 2px solid #f5a34c;
+}
+.line_hight {
+  line-height: 64px;
+}
+
+.text_left .text_prag {
+  color: #100826 !important;
+  font-weight: 400;
+  font-size: 19px;
+  padding-right: 20px;
+  opacity: 0.7;
+}
+.prands img {
+  width: 130px;
+  opacity: 0.5;
+}
+.prands_text {
+  font-size: 14px !important;
+  opacity: 0.5;
+  margin-bottom: 8px !important;
+}
+.comment {
+  background: #1a0359;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 15px;
+  padding: 22px 25px;
+  /* width: 440px; */
+  position: absolute;
+  z-index: 0809898786876;
+  top: 68% !important;
+  left: -9px;
+}
+.italick_dot {
+  color: #5d57fb;
+  font-size: 70px;
+  font-weight: 700;
+  left: -18px;
+  line-height: 125%;
+  position: absolute;
+  top: 15px;
+}
+.badge {
+  align-items: center;
+  background: #5d57fb;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 125%;
+  margin-left: 32px;
+  padding: 6px 12px;
+  position: absolute;
+  top: -25px;
+  justify-content: space-between;
+}
+.shadow_box {
+  box-shadow: 0px 3px 10px #b5b5b57a;
 }

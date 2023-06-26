@@ -1,24 +1,35 @@
 
 import logo from '../../assets/logo/logo.png';
-// import head from '../../assets/header/head.jpg'
-import Vedio from '../../assets/header/Vedio.jpg'
 import { Link } from 'react-router-dom'
+import zahir from '../../assets/header/zahir.webp'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import image1 from '../../assets/header/image1.png'
+import image2 from '../../assets/header/image2.jpg'
 import './header.css'
-import {
-    Player,
-    ControlBar,
-    ReplayControl,
-    ForwardControl,
-    CurrentTimeDisplay,
-    TimeDivider,
-    PlaybackRateMenuButton,
-    VolumeMenuButton, BigPlayButton
-} from 'video-react';
 function Header() {
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 1
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 1
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 1
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
     return (
         <div>
             <div className='header pt-5 bg-cover'>
-
                 <nav className="bg-white p-5 rounded-[20px] container_div">
                     <div className="mx-auto px-4">
                         <div className="flex justify-between">
@@ -61,77 +72,60 @@ function Header() {
                         </div>
                     </div>
                 </nav>
-
-                <div className='header_text w-[100%] mt-4 pb-[102px]'>
-                    <div className='text_inside text-center'>
-                        <h1 className='text-[35px] sm:text-[42px] text-center text-black leading-[3.6rem] recolta'>
-                            <span className='after relative mr-2'> Boost</span>
-                            Your Business With Our Tailored <br className="br_head" />
-                            <span className='   relative'> Community Growth Strategies.</span>
-                        </h1>
-                        <div className="flex w-[100%] justify-center">
-                            <Link to='/MultiStepForm'>
-                                <button className='btn main_background p-2 rounded-[16px] w-[200px] mt-5 text-white font-bold sub_font text-[20px] flex justify-evenly'>
-                                    Get started
-                                    <span>
-                                        <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <title />
-                                            <g id="Complete">
-
-                                                <g id="arrow-up-right">
-                                                    <g>
-                                                        <polyline data-name="Right" fill="none" id="Right-2" points="18.7 12.4 18.7 5.3 11.6 5.3" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-
-                                                        <line fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="5.3" x2="17.1" y1="18.7" y2="6.9" />
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </span>
+            </div>
+            <div className='sections_hero mt-[50px] pt-[30px] p-5 container_div'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
+                    <div className='left_text mt-[60px]'>
+                        <h3 className='font-bold text-[40px] text-black line_hight'>
+                            <span className='text-[#f5a34c] mr-2'>Unlock</span>
+                            the Power  of Our Proven Framework
+                        </h3>
+                        <p className='font-semibold  text-black mt-[20px] text-[#100826] text_prag'>
+                            Generate Over <span className='text-[#f5a34c]'>$500K</span> in Sales and Captivate <span className='text-[#f5a34c]'>$Millions</span>   of Potential Customers!”
+                        </p>
+                        <div className='buttons_section flex w-[100%] mt-[20px]'>
+                            <Link to="/blogs">
+                                <button className='arrow_button_nav h-[50px]  text-[18px] rounded-[10px] flex p-[20px] justify-center items-center'>
+                                    Get started - Free 30 minutes call
                                 </button>
                             </Link>
                         </div>
+                        <div className='prands mt-[40px] pr-[10px]'>
+                            <p className='prands_text'>SCHOLARSHIPS FEATURED BY:
+                            </p>
+                            <div className='grid sm:grid-cols-3 grid-cols-1 gap-2 mt-[30px]'>
+                                <div className='text-center'>
+                                    <h2 className="text-[50px] sm:text-[60px]  font-bold mb-2 sub_font text-black">+2M</h2>
+                                    <p className="text-gray-500 text-[18px] ">Members Of Community </p>
+                                </div>
+                                <div className='text-center'>
+                                    <h2 className="text-[50px] sm:text-[60px] font-bold mb-2 sub_font text-black">+50</h2>
+                                    <p className="text-gray-500 text-[18px]   ">Funnels Built</p>
+                                </div>
+                                <div className='text-center'>
+                                    <h2 className="text-[50px] sm:text-[60px] font-bold mb-2 sub_font text-black">+10M</h2>
+                                    <p className="text-gray-500 text-[18px]  ">Amount Raised</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className='vedio_show flex  w-[100%] pb-[40px] justify-center'>
-                    <div className='img_show  w-[100%] sm:w-[70%]'>
-                        {/* <img src={head} alt="vedio" className='object-center object-cover  w-100 h-100' /> */}
-                        <Player poster={Vedio}>
-                            <source src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4" />
-                            <source src="http://mirrorblender.top-ix.org/movies/sintel-1024-surround.mp4" />
-                            <ControlBar>
-                                <ReplayControl seconds={10} order={1.1} />
-                                <ForwardControl seconds={30} order={1.2} />
-                                <CurrentTimeDisplay order={4.1} />
-                                <TimeDivider order={4.2} />
-                                <PlaybackRateMenuButton rates={[5, 2, 1, 0.5, 0.1]} order={7.1} position="center" />
-                                <BigPlayButton position="center" />
-                                <VolumeMenuButton />
-                            </ControlBar>
-                        </Player>
-                    </div>
-                </div>
-            </div>
-            <div className='w-full p-0 sm:p-4 gray_div mt-[70px]'>
-                <div className='black_box relative w-full'>
-                    <div className='div_cols  flex justify-center'>
-                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 mt-[-40px] lg:grid-cols-3 xl:grid-cols-3 w-full sm:w-[75%] md:w-[50%] top-[-2vh] back_black">
+                    <div className='image_right'>
+                        <div className='sm:w-[90%] w-[100%] shadow_box' >
+                            <Carousel responsive={responsive} showDots={true} className='' transitionDuration={60}
+                            >
+                                <div className=''>
+                                    <div className='overflow-hidden'>
 
-                            <div className="sm:p-6 p-4  card_small relative bg-[#222222] sm:bg-black text-left sm:text-center">
-                                <h2 className="text-[50px]   font-bold mb-2 sub_font">+2M</h2>
-                                <p className="text-gray-500 text-[20px] ">Members Of Community </p>
-                            </div>
-                            <div className="sm:p-6 p-4 card bg-[#222222]  relative sm:bg-black text-left sm:text-center">
-                                <h2 className="text-[50px] font-bold mb-2 sub_font">50</h2>
-                                <p className="text-gray-500 text-[20px] ">Funnels Built</p>
-                            </div>
-                            <div className="sm:p-6 p-4 card sm:bg-black relative flex sm:block card_content items-center text-left sm:text-center ">
-                                <h2 className="text-[50px]  font-bold mb-2 sub_font pr-6">+10M</h2>
-                                <p className="text-gray-500 text-[20px]">Amount
-                                    Raised</p>
-                                {/* <br className='block sm:hidden' /> */}
+                                        <img src={image1} className='object-cover' alt="slider" />
 
-                            </div>
+                                    </div>
+                                </div>
+                                <div className=''>
+                                    <div className='overflow-hidden  '>
+                                        <img src={image1} className='object-cover' alt="slider" />
+                                    </div>
+                                </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
