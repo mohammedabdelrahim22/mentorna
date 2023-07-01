@@ -37,6 +37,7 @@ const BlogsNav = () => {
                         en
                     </button>
                 )} */}
+
             </div>
         </div>
     )
