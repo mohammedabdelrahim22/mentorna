@@ -1,11 +1,11 @@
 
 import logo from '../../assets/logo/logo.png';
 import { Link } from 'react-router-dom'
-// import zahir from '../../assets/header/zahir.webp'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import image1 from '../../assets/header/image1.png'
 import image2 from '../../assets/header/image2.png'
+import './header.css'
 import './header.css'
 function Header() {
     const responsive = {
@@ -90,6 +90,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
+
                     <div className='image_right pt-[30px]'>
                         <div className='sm:w-[90%] w-[100%] shadow_box' >
                             <Carousel responsive={responsive} showDots={true} className=''
